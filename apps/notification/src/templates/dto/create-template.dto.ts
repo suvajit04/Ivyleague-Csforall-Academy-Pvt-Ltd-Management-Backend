@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { NotificationChannel } from '../emums/notification-channel.enum.js';
+import { NotificationChannel } from '../enums/notification-channel.enum.js';
 
 export const createTemplateSchema = z.object({
     brandId: z.number().int().positive().nullable().optional(),
